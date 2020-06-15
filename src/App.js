@@ -1,12 +1,12 @@
 import React from 'react';
 import AppWrapper from './components/AppWrapper'
-import EditorList from './components/EditorList'
+import EditorCallout from './components/EditorCallout'
 
 import './App.css'
 function App() {
 	return (
 		<AppWrapper>
-			<EditorList />
+			<EditorCallout />
 		</AppWrapper>
 	);
 }
